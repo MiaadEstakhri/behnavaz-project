@@ -556,6 +556,7 @@ p {
 
 .store {
   max-height: 370px;
+  margin-top: 0;
 }
 
 .store-img {
