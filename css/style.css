@@ -635,7 +635,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 380px;
+  height: auto;
 }
 
 .special-center {
