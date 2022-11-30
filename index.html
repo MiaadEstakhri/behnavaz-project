@@ -1,41 +1,89 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>behnavaz</title>
+  </head>
 
-</head>
-
-<body>
-    <section class="feature brochure store block ">
-        <div class="feature-center brochure-center store-center container ">
-            <div class="feature-img store-img">
-                <div class="store__spiker-img"></div>
-                <img class="application__img" src="./assets/images/iPhone11ProMax_application.svg" alt="application-store">
-            </div>
-            <div class="feature__title brochure__title store__title">
-                <h2 class="feature__heading brochure__heading">
-                   مدیریت خانه روی گوشی!
-                </h2>
-                <p class="feature__description store__description">
-                    با دانلود اپلیکشن بانواز میتوانی تمامی سنسورها رو روی گوشیت مشاهده و کنترل کنی.
-                </p>
-                <button class="btn btn--secondary-transparent btn__brochure">فروشگاه بانواز</button>
-            </div>
+  <body>
+    <!-- header -->
+    <header class="min-header">
+      <nav class="nav">
+        <a href="#" class="logo">
+          <img class="img__logo" src="../assets/images/Logo.svg" alt="Logo" />
+        </a>
+        <!-- <div class="nav__toggler">
+                <div class="bar bar__one"></div>
+                <div class="bar bar__two"></div>
+                <div class="bar bar__three"></div>
+            </div> -->
+        <div class="nav__lists">
+          <li class="list nav__list">
+            <list class="nav__item"><a href="" class="">خانه</a></list>
+            <list class="nav__item"><a href="" class="">فروشگاه</a></list>
+            <list class="nav__item"><a href="" class="">درباره ما</a></list>
+          </li>
         </div>
+
+        <div class="nav__btn">
+          <button class="btn btn--primary btn__log-in">ورود به داشبورد</button>
+          <button class="btn btn--primary-transparent btn__Download-app">
+            دانلود اپلیکیشن
+          </button>
+        </div>
+        <div class="nav__bar">
+          <button class="btn btn--primary btn__store">فروشگاه بانواز</button>
+          <span class="menu__bar nav__toggler">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </div>
+      </nav>
+    </header>
+    <!-- feature -->
+    <section class="feature block">
+      <div class="feature-center container">
+        <div class="feature-img">
+          <div class="home__Frame">
+            <img class="home__img" src="../assets/images/home.svg" alt="home" />
+          </div>
+          <div class="iphone__Frame">
+            <img
+              class="iphone__img"
+              src="../assets/images/iPhone 11 Pro Max - 10.svg"
+              alt="iphone"
+            />
+          </div>
+        </div>
+        <div class="feature__title">
+          <h2 class="feature__heading">خیالت از خونه راحت!</h2>
+          <p class="feature__description">
+            بانواز واژهای کردی به معنای باخبر ساختن با صدای بلند است. درست مـثل
+            بانواز!
+            <br />
+            با سنسورهای بانواز از هیچ اتفاقی بی خبر نیست!
+            <br />
+            چه خونه باشی چه نه.
+          </p>
+          <button class="btn btn--secondary">فروشگاه بانواز</button>
+        </div>
+      </div>
     </section>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
-        integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+      integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="./js/main.js"></script>
-</body>
-
+  </body>
 </html>
-

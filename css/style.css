@@ -79,7 +79,7 @@ p {
 /* block */
 
 .block {
-  padding: 4rem 2rem;
+  padding: 5rem 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -169,6 +169,7 @@ p {
   left: 0;
   /* padding: 0 1.3rem; */
   transition: all 0.8s ease-in-out;
+  z-index: 10;
 }
 
 .nav__list {
@@ -564,7 +565,11 @@ p {
   border-radius: 17px;
   position: relative;
   margin: 0 2rem;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .store-img .store__spiker-img {
@@ -601,7 +606,6 @@ p {
     height: 370px;
     width: 17.5rem;
     border-radius: 28px;
-    
   }
 
   .store-img .store__spiker-img {
