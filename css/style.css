@@ -229,7 +229,8 @@ p {
   transition: all 0.4s ease-in-out;
   color: var(--color-primary);
 }
-@media screen and (min-width: 1024px) {
+
+@media screen and (min-width: 768px) {
   .nav {
     width: 100%;
     flex-wrap: nowrap;
@@ -274,7 +275,8 @@ p {
   }
 
   .nav__btn .btn {
-    margin-left: 2rem;
+    font-size: 1.6rem;
+    margin-left: 1rem;
     display: inline-block;
   }
   .nav__bar {
@@ -619,6 +621,10 @@ p {
 }
 
 @media screen and (max-width: 480px) {
+  .store {
+    max-height: 600px;
+  }
+
   .store-img {
     right: 0;
   }
@@ -643,7 +649,7 @@ p {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 3rem;
-  align-items: center;
+  align-items: start;
   justify-content: center;
 }
 
@@ -673,14 +679,14 @@ p {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .special__box {
     max-width: 350px;
-    height: 200px;
+    height: auto;
   }
 
   .special__img {
@@ -701,6 +707,7 @@ p {
 
 .footer {
   width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -759,5 +766,90 @@ p {
   .friends__dec p {
     font-size: 2.3rem;
     margin: 2rem 0 0 0;
+  }
+}
+
+/* about section */
+
+.about-sec {
+  width: 100%;
+  background: var(--color-primary);
+}
+
+.about-center {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.list__item li {
+  margin-top: 1rem;
+  color: #f4f5f7;
+}
+
+.list__item li a {
+  color: #f4f5f7;
+}
+
+@media screen and (min-width: 768px) {
+  .about-center {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* social media section */
+
+.line {
+  border-bottom: 1px solid #d9dbe1;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.social-media ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.social-media ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #d9dbe138;
+}
+
+.social-media p {
+  color: #d9dbe1;
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .social-media p {
+    margin-top: 0;
   }
 }
