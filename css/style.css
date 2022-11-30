@@ -79,14 +79,14 @@ p {
 /* block */
 
 .block {
-  padding: 5rem 2rem;
+  padding: 6rem 2rem;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .block {
-    padding: 6rem 2rem;
+    padding: 7rem 2rem;
   }
-}
+} */
 
 /* buttons */
 
@@ -313,13 +313,13 @@ p {
 }
 
 .feature-img .home__img {
-  width: 28rem;
+  width: 26rem;
   height: 33rem;
 }
 
 .feature-img .iphone__img {
-  width: 13rem;
-  height: 26rem;
+  width: 12rem;
+  height: 25rem;
   border-radius: 20px;
 }
 
@@ -327,8 +327,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 13.5rem;
-  height: 27.5rem;
+  width: 12.5rem;
+  height: 26rem;
   background-color: rgba(255, 255, 255, 0.781);
   border-radius: 15px;
   position: absolute;
@@ -353,19 +353,19 @@ p {
   }
 
   .feature-img .home__img {
-    width: 35rem;
+    width: 32rem;
     height: 40rem;
   }
 
   .feature-img .iphone__img {
-    width: 23rem;
-    height: 33rem;
+    width: 18rem;
+    height: 30rem;
     border-radius: 20px;
   }
 
   .feature-img .iphone__Frame {
-    width: 17rem;
-    height: 35rem;
+    width: 15rem;
+    height: 31rem;
   }
 }
 
@@ -390,7 +390,7 @@ p {
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
-  padding: 1.5rem;
+  /* padding: 1.5rem; */
 }
 
 .tab img {
@@ -440,19 +440,18 @@ p {
 }
 
 .management__img .device__img {
-  width: 38rem;
+  width: 30rem;
   height: 7.4rem;
 }
 
 .management__description {
   padding: 0 0.5rem;
-  overflow: hidden;
 }
 
 @media screen and (min-width: 1024px) {
   .management__img .device__img {
-    width: 70rem;
-    height: 18rem;
+    width: 50rem;
+    height: 15rem;
     margin-top: 2rem;
   }
 
